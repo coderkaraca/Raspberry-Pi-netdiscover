@@ -1,0 +1,18 @@
+sudo apt-get install netdiscover -y
+sudo netdiscover
+
+----------------------------------------
+
+#Example;
+
+ Currently scanning: 172.26.127.0/16   |   Screen View: Unique Hosts           
+                                                                               
+ 85 Captured ARP Req/Rep packets, from 5 hosts.   Total size: 4920             
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 192.168.1.***   **mac address**     67    3966   Limited Company ****
+ 192.168.1.***   **mac address**     11     642   Limited Company ****
+ 192.168.1.***   **mac address**      1      60   Limited Company ****
+ 192.168.1.***   **mac address**      1      42   Limited Company ****
+ 192.168.1.***   **mac address**      5     210   Limited Company ****
